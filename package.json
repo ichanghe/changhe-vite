@@ -1,0 +1,23 @@
+{
+  "name": "changhe-vite",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "ch-dev": "changhe-vite",
+    "build": "vite build"
+  },
+  "bin": {
+    "changhe-vite": "./bin/www.js"
+  },
+  "dependencies": {
+    "es-module-lexer": "^0.3.24",
+    "koa": "^2.13.0",
+    "koa-static": "^5.0.0",
+    "magic-string": "^0.25.7",
+    "vue": "^3.0.0-rc.1"
+  },
+  "devDependencies": {
+    "vite": "^1.0.0-rc.1",
+    "@vue/compiler-sfc": "^3.0.0-rc.1"
+  }
+}
