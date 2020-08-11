@@ -10,7 +10,7 @@ function htmlRewritePlugin({root,app}){
         await next();
         if(ctx.response.is('html')){
             const html = await readBody(ctx.body);
-            ctx.body = html.replace(/<head>/,`$&$${inject}`)
+            ctx.body = html.replace(/<head>/,`$&${inject}`)
         }
     })
 }

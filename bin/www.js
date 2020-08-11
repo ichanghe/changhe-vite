@@ -1,6 +1,6 @@
 #! /usr/bin/env node
 
-const { createServer } = require("vite");
+// const { createServer } = require("vite");
 
 // 可运行的脚本
 // console.log('run changhe-vite')
